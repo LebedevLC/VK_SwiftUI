@@ -10,12 +10,11 @@ import SwiftUI
 struct ContentView: View {
     @State private var login = ""
     @State private var password = ""
-    @State private var buttonIsDisabled = true
     
     let colors = [
         Color(red: 0.612, green: 0.925, blue: 0.984, opacity: 0.7),
         Color(red: 0.396, green: 0.780, blue: 0.780, opacity: 1),
-        Color(red: 0.000, green: 0.322, blue: 0.831, opacity: 0.4)
+        Color(red: 0.000, green: 0.322, blue: 0.831, opacity: 0.6)
     ]
     
     var body: some View {
